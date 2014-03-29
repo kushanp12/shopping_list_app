@@ -8,6 +8,10 @@ $(document).ready(function(){
 			alert('Please Enter a Valid Item');
 			return $('li').last().remove();
 		}
+		else if (new_Item == ' '){
+			alert('Please Enter a Valid Item');
+			return $('li').last().remove();
+		}
 	})
 	$('ul').on('click', 'li', function(){
 		$(this).toggleClass('complete');
