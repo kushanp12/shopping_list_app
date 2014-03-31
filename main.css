@@ -73,6 +73,8 @@ ul {
 	min-width: 300px;
 
 	border-top: 2px dashed #484848;
+
+	text-transform: capitalize;
 }
 
 .button {
