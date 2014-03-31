@@ -3,6 +3,11 @@ $(document).ready(function(){
 		$('.items').append($('<li>', {
 			text: $('.texts').val()
 	}))
+		$('.items').keyup(function(event){
+			if (event.keycode == 13){
+				$('.button').click();
+			}
+	})
 	var new_Item = $('.texts').val();
 		if (new_Item == ''){
 			alert('Please Enter a Valid Item');
