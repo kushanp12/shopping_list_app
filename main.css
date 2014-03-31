@@ -70,9 +70,6 @@ ul {
 	left: 510px;
 	margin-bottom: 15px;
 
-
-	list-style: none;
-
 	min-width: 300px;
 
 	border-top: 2px dashed #484848;
@@ -112,6 +109,8 @@ input {
 .complete {
 	text-decoration: line-through ;
 	color: darkgray;
+
+	list-style: none;
 }
 
 .delete {
