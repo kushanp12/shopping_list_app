@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.button').submit(function(){
+	$('.button').click(function(){
 		$('.items').append($('<li>', {
 			text: $('.texts').val()
 	}))
