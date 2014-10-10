@@ -42,8 +42,9 @@ html {
 
 
 .heading {
+	float: right;
 	font-size: 24px;
-	margin-left: 130px;
+	margin-right: 20%;
 }
 
 #title {
@@ -55,18 +56,11 @@ html {
 	height: 94px;
 	
 	margin-top: 5px;
-
-	background: url('http://www.clker.com/cliparts/B/V/P/X/Z/e/thumbtack-pushpin-2-th.png');
-	background-repeat: no-repeat;
-	
-	position: absolute;
-	top: 40px;
-	left: 400px;
 }
 
 .paper {
 	
-	margin-top: 7.2%;
+	margin-top: 4.5%;
 	margin-left: 15%;
 	margin-bottom: 15px;
 
@@ -81,7 +75,7 @@ html {
 	margin-left: 30%;
 	margin-bottom: 15px;
 
-	min-width: 300px;
+	min-width: 300px;+
 
 	text-transform: capitalize;
 }
