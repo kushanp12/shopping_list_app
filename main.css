@@ -1,7 +1,16 @@
 * {
 	color: blue;
 	font-family: Courier New, Courier, monospace;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
+
+html {
+	width: 100%;
+	height: 100%;
+}
+
 
 .wallpaper {
 
@@ -20,10 +29,10 @@
 }
 
 .list {
-	min-width: 550px;
-	min-height: 712px;
+	width: 550px;
+	height: 712px;
 	
-	margin-left: 400px;
+	margin: auto;
 	padding-top: 20px;
 
 	background: url('https://dl.dropboxusercontent.com/u/263968982/home-writing-paper-thumb.jpg');
