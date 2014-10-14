@@ -76,8 +76,6 @@ html {
 	margin-bottom: 15px;
 
 	min-width: 300px;+
-
-	text-transform: capitalize;
 }
 
 .button {
@@ -98,7 +96,6 @@ input {
 	vertical-align: middle;
 
 	border: 2px dashed lightblue;
-
 }
 
 
@@ -109,6 +106,7 @@ input {
 .menu, li {
 	padding-top: 2px;
 	text-align: left;
+	text-transform: capitalize;
 }
 
 .complete {
