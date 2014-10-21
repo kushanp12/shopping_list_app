@@ -21,6 +21,8 @@ html {
   	-o-background-size: cover;
 	background-size: cover;
 
+	height: 100vh;
+
 	padding-top: 20px;
 
 	border: 1px solid brown;
